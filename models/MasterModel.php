@@ -36,15 +36,4 @@ class MasterModel {
   
    
 
-    public function loginAdmin($table, $username){
-        $db= Database::connect();
-        $sql = "SELECT * FROM $table WHERE  adminName='{$username}'";
-        $stmt = $db->prepare($sql);
-        $stmt->execute();
-        $result =$stmt->fetchAll(PDO:: FETCH_ASSOC);
-        $stmt->closeCursor();   
-        return $result;
-           
-    }
-
 }
