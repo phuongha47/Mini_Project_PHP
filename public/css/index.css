@@ -1,0 +1,67 @@
+a { color: inherit;
+    text-decoration: none; } 
+
+
+.add_right{
+    
+    margin-top: 20px;
+    background-color: #59c95c; /* Green */
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+    
+   }
+
+.delete_button{
+    background-color: rgb(235, 66, 66); /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+.update_button{
+    background-color: #788af3; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+.bg_con{
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+    /* margin-top: 30px; */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.bg{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
